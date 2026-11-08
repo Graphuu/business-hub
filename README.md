@@ -9,7 +9,7 @@ services required.
 
 ![Business Hub demo](docs/demo.gif)
 
-▶️ **[Watch the full demo video (85s)](docs/demo.mp4)**
+▶️ **[Watch the full demo video (~1 min)](docs/demo.mp4)**
 
 ## Stack
 
