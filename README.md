@@ -107,8 +107,8 @@ The provider is your choice (the settings button on the AI Builder page):
 
 - **Anthropic (Claude)** through the official SDK. Default model
   `claude-opus-5-5`. Uses a key saved in settings, or `ANTHROPIC_API_KEY`.
-- **Any OpenAI-compatible API**: OpenAI, Groq, OpenRouter, Google Gemini,
-  or a custom endpoint. Ollama and LM Studio run fully on your machine.
+- **Any OpenAI-compatible API**: OpenAI, DeepSeek, Groq, OpenRouter, Google
+  Gemini, or a custom endpoint. Ollama and LM Studio run fully on your machine.
 
 What gets sent: column names, types and summary stats for the selected
 tables, plus min/max values and 5 sample rows unless you untick "Share

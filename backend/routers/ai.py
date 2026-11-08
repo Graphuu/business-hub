@@ -47,7 +47,8 @@ def _presets() -> dict:
     return {
         "anthropic": {"label": "Anthropic (Claude)", "provider": "anthropic", "default_model": DEFAULT_ANTHROPIC_MODEL, "needs_key": True},
         **{
-            key: {"label": p["label"], "provider": "openai_compatible", "base_url": p["base_url"], "needs_key": p["needs_key"]}
+            key: {"label": p["label"], "provider": "openai_compatible", "base_url": p["base_url"], "needs_key": p["needs_key"],
+                  "default_model": p.get("default_model", "")}
             for key, p in OPENAI_COMPATIBLE_PRESETS.items()
         },
     }

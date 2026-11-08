@@ -41,6 +41,7 @@ OPENAI_COMPATIBLE_PRESETS = {
     "groq": {"label": "Groq", "base_url": "https://api.groq.com/openai/v1", "needs_key": True},
     "openrouter": {"label": "OpenRouter", "base_url": "https://openrouter.ai/api/v1", "needs_key": True},
     "gemini": {"label": "Google Gemini", "base_url": "https://generativelanguage.googleapis.com/v1beta/openai", "needs_key": True},
+    "deepseek": {"label": "DeepSeek", "base_url": "https://api.deepseek.com", "needs_key": True, "default_model": "deepseek-flash"},
     "custom": {"label": "Custom endpoint", "base_url": "", "needs_key": False},
 }
 

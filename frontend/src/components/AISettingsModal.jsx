@@ -12,6 +12,7 @@ const MODEL_HINTS = {
   anthropic: 'Claude model id — claude-opus-5-5 is the default.',
   ollama: 'A model you have pulled, e.g. llama3.1 or qwen2.5-coder.',
   lmstudio: 'The model identifier shown in LM Studio.',
+  deepseek: 'e.g. deepseek-flash (fast) or deepseek-v4-pro.',
 }
 
 export default function AISettingsModal({ open, onClose, onSaved }) {
